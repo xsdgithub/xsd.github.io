@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xsdgithub.github.io/xsd.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-07-27T06:50:20.478Z</updated>
+    <updated>2019-07-28T09:26:38.819Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xsdgithub.github.io/xsd.github.io/"/>
     <link rel="self" href="https://xsdgithub.github.io/xsd.github.io//atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://xsdgithub.github.io/xsd.github.io//images/avatar.png</logo>
     <icon>https://xsdgithub.github.io/xsd.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[香港的制度变迁和未来的挑战]]></title>
+        <id>https://xsdgithub.github.io/xsd.github.io//post/xiang-gang-de-zhi-du-bian-qian-he-wei-lai-de-tiao-zhan</id>
+        <link href="https://xsdgithub.github.io/xsd.github.io//post/xiang-gang-de-zhi-du-bian-qian-he-wei-lai-de-tiao-zhan">
+        </link>
+        <updated>2019-07-28T08:49:19.000Z</updated>
+        <content type="html"><![CDATA[<p>&lt;本文全文刊登卢麒元先生于2017年在香港浸会大学的演讲稿&gt;（图片版）</p>
+<p><img src="https://xsdgithub.github.io/xsd.github.io//post-images/1564305943366.jpg" alt=""></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[gridea是一个博客编写客户端]]></title>
         <id>https://xsdgithub.github.io/xsd.github.io//post/gridea-shi-yi-ge-bo-ke-bian-xie-ke-hu-duan</id>
