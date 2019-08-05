@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xsdgithub.github.io/xsd.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-08-02T18:10:10.132Z</updated>
+    <updated>2019-08-05T10:41:20.222Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xsdgithub.github.io/xsd.github.io/"/>
     <link rel="self" href="https://xsdgithub.github.io/xsd.github.io//atom.xml"/>
@@ -10,6 +10,120 @@
     <logo>https://xsdgithub.github.io/xsd.github.io//images/avatar.png</logo>
     <icon>https://xsdgithub.github.io/xsd.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[【8.5-8.6】花书学习任务]]></title>
+        <id>https://xsdgithub.github.io/xsd.github.io//post/85-86-hua-shu-xue-xi-ren-wu</id>
+        <link href="https://xsdgithub.github.io/xsd.github.io//post/85-86-hua-shu-xue-xi-ren-wu">
+        </link>
+        <updated>2019-08-05T10:40:56.000Z</updated>
+        <content type="html"><![CDATA[<p>机器学习算法基本概念<br>
+2019-08-05 00:00 至 2019-08-06 23:59<br>
+学习时长：8/5——8/6<br>
+任务简介：学习花书5.1-5.4，观看讲解视频<br>
+任务详情：<br>
+本章介绍贯穿本书其他部分的机器学习基础原理。<br>
+5.1 学习算法<br>
+介绍学习算法的定义：对于某类任务 T 和性能度量 P，一个计算机程序被认为可以从经验 E 中学习是指，通过经验 E 改进后，它在任务 T 上由性能度量 P 衡量的性能有所提升。<br>
+T：常见的机器学习任务包括分类、回归、异常检测等等。<br>
+P：对于分类任务我们通常用准确率来度量；使用测试集数据来评估系统性能。<br>
+E：根据学习过程中的不同经验，学习算法可大致分为无监督和监督算法。<br>
+通过一个简单的示例——线性回归算法，来理解机器学习算法的概念。<br>
+5.2 容量、过拟合和欠拟合<br>
+机器学习算法是否能够良好拟合训练集数据？能否泛化到先前未观测的新数据上？决定学习算法效果是否好的因素分别是训练误差，与训练误差和测试误差的差距。这两个因素对应机器学习的两个主要挑战：欠拟合和过拟合。模型是否偏向于过拟合或者欠拟合，是由模型的容量决定的。<br>
+为了降低模型的泛化误差（而非训练误差），我们需要正则化方法，对学习算法进行一些修改。<br>
+5.3 超参数和验证集<br>
+大部分机器学习算法都有超参数，这些参数无法通过学习算法本身学习出来。<br>
+通过设置验证机的方法来设置超参数。<br>
+5.4 估计、偏差和方差<br>
+通过统计领域提供的工具来衡量模型的泛化效果，以及是否欠拟合或过拟合。<br>
+偏差度量偏离真实函数或参数的误差期望，方差则代表当我们重新从数据生成分布中取样时，导致的估计期望的偏差。当模型容量增大时，偏差随之减小，而方差随之增大。模型容量小于最佳容量会呈现欠拟合，大于时导致过拟合。</p>
+<p>学习目标：<br>
+a. 机器学习算法基本概念，回归与分类任务等。欠拟合过拟合，模型选取交叉验证<br>
+b. 了解学习算法的定义，包括常见学习任务，性能度量方法，根据经验对学习算法的分类<br>
+c. 了解模型容量、过拟合和过拟合，以及泛化、正则化的概念<br>
+d. 学习通过验证集来设置超参数的思路<br>
+e. 理解偏差-方差权衡，与欠拟合过拟合、模型容量之间的关系</p>
+<p>机器学习算法基本概念</p>
+<p>过拟合欠拟合超参数验证集</p>
+<p>估计、偏差和方差</p>
+<p>作业：<br>
+a. 参考https://github.com/dibgerge/ml-coursera-python-assignments/blob/master/Exercise5/exercise5.ipynb，<br>
+了解bias-variance tradeoff。<br>
+b. 交叉验证的基本流程是什么？<br>
+c. 下图中靶心为我们要预测的真实值，命中的点离靶心越远，预测结果越差。假设有四种学习算法，对每种算法，我们多次重复整个建模过程，得到多个命中点。结果分别为如下四幅图所示。这四幅图分别对应以下哪种情况：<br>
+i. 高方差，高偏差<br>
+ii. 高方差，低偏差<br>
+iii. 低方差，高偏差<br>
+iv. 低方差，低偏差<br>
+image.png<br>
+打卡要求：<br>
+a. 文字简答。不少于20字<br>
+b. 将图例与选项一一对应。<br>
+打卡截止提交日期：8/6</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[8.4]花书学习任务]]></title>
+        <id>https://xsdgithub.github.io/xsd.github.io//post/84hua-shu-xue-xi-ren-wu</id>
+        <link href="https://xsdgithub.github.io/xsd.github.io//post/84hua-shu-xue-xi-ren-wu">
+        </link>
+        <updated>2019-08-05T10:40:22.000Z</updated>
+        <content type="html"><![CDATA[<p>第一周：本周学习任务简单总结<br>
+2019-08-04 00:00 至 2019-08-04 23:59<br>
+教材：深度学习 DEEP LEARNING<br>
+推荐在下面的地址进行中文版的下载 https://github.com/exacity/deeplearningbook-chinese</p>
+<p>学习时长：8/4</p>
+<p>任务简介：温故而知新，简单回顾本周学到的几个重要知识点</p>
+<p>详细说明：每一周的学习任务都比较重，第一次学过之后特别容易忘，所以在周日及时做一个要点回顾，会让学习效率大大的提升，不会的知识也会越来越少</p>
+<p>作业：<br>
+a. 请用文字描述，本周所学知识的重点，也可以思维导图、手写、电子版截图或者拍照均可，格式不限。<br>
+b. 观看深度学习最新进展视频：https://www.bilibili.com/video/av41024605?from=search&amp;seid=2392547083332976752。总结几条你认为深度学习最有潜力的发展方向。<br>
+c. 阅读主成分分析的三种推导方式：http://scribblethink.org/Work/PCAderivations/PCAderivations.pdf。<br>
+d. 根据下图中从某个二元正态分布中抽取的数据，回答问题<br>
+image.png</p>
+<p>打卡要求：<br>
+打卡提交作业，文字简答，重复任一推导，要求不少于50字<br>
+打卡截止日期：8/4</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【7.30-7.31】花书学习任务]]></title>
+        <id>https://xsdgithub.github.io/xsd.github.io//post/730-731-hua-shu-xue-xi-ren-wu</id>
+        <link href="https://xsdgithub.github.io/xsd.github.io//post/730-731-hua-shu-xue-xi-ren-wu">
+        </link>
+        <updated>2019-08-05T10:38:05.000Z</updated>
+        <content type="html"><![CDATA[<p>线性代数<br>
+2019-07-30 00:00 至 2019-07-31 23:59<br>
+教材：深度学习 DEEP LEARNING<br>
+推荐在下面的地址进行中文版的下载 https://github.com/exacity/deeplearningbook-chinese</p>
+<p>学习时长：7/30-7/31<br>
+任务简介：学习和阅读花书1-2章，观看讲解视频<br>
+¨  2.1-2.4，2.6，2.10-2.11：线性代数基本概念、基本运算<br>
+¨  2.5：机器学习中常用的范数及其性质<br>
+¨  2.7-2.8：矩阵分解<br>
+¨  2.9：矩阵的伪逆<br>
+¨  2.12：主成分分析</p>
+<p>学习⽬标：<br>
+a. 矩阵的对⻆化分解，以及⼀般矩阵的svd分解，以及应⽤<br>
+b. pca算法推导<br>
+c. 逆矩阵以及伪逆举证，最⼩⼆乘估计，最⼩范数估计</p>
+<p>课件PPT下载链接（备注，视频中一些笔误信息在PPT中均已经修正，所以请大家务必下载课件配套视频进行学习！！）：<br>
+链接：https://pan.baidu.com/s/1CHeUxxiAT1Excq660tmxBA<br>
+提取码：gsxu</p>
+<p>注：<br>
+因为PPT中公式比较多，工作人员在键入公式的时候可能把某些符号或者内容打错了，首先为给同学带来的不便表示抱歉。<br>
+大家在学习的过程中，如果发现PPT内容有一些小错误，请直接登记在这张表中，方便同学查看。我们这边也会加快修正内容哦！<br>
+https://shimo.im/docs/KY9QTVTqV3wDKJTd/ 《花书视频和PPT勘误表》</p>
+<p>矩阵对角化以及SVD分解</p>
+<p>伪逆矩阵最小二乘</p>
+<p>PCA</p>
+<p>作业：<br>
+a. 参考https://nbviewer.jupyter.org/github/ageron/handson-ml/blob/master/math_linear_algebra.ipynb，温习线性代数。<br>
+b. 阅读https://zhuanlan.zhihu.com/p/24709748，学习标量对矩阵的求导。</p>
+<p>打卡要求：<br>
+打卡提交作业和笔记，不少于20字</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[科创板的开启为什么对量化交易是重大利好？]]></title>
         <id>https://xsdgithub.github.io/xsd.github.io//post/ke-chuang-ban-de-kai-qi-wei-shi-me-dui-liang-hua-jiao-yi-shi-chong-da-li-hao</id>

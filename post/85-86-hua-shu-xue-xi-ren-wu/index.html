@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>【8.5-8.6】花书学习任务 | Gridea</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xsdgithub.github.io/xsd.github.io//favicon.ico?v=1565001676715">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://xsdgithub.github.io/xsd.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xsdgithub.github.io/xsd.github.io/">
+        <img src="https://xsdgithub.github.io/xsd.github.io//images/avatar.png?v=1565001676715" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://xsdgithub.github.io/xsd.github.io/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xsdgithub.github.io/xsd.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">【8.5-8.6】花书学习任务</h2>
+            <div class="post-date">2019-08-05</div>
+            
+            <div class="post-content">
+              <p>机器学习算法基本概念<br>
+2019-08-05 00:00 至 2019-08-06 23:59<br>
+学习时长：8/5——8/6<br>
+任务简介：学习花书5.1-5.4，观看讲解视频<br>
+任务详情：<br>
+本章介绍贯穿本书其他部分的机器学习基础原理。<br>
+5.1 学习算法<br>
+介绍学习算法的定义：对于某类任务 T 和性能度量 P，一个计算机程序被认为可以从经验 E 中学习是指，通过经验 E 改进后，它在任务 T 上由性能度量 P 衡量的性能有所提升。<br>
+T：常见的机器学习任务包括分类、回归、异常检测等等。<br>
+P：对于分类任务我们通常用准确率来度量；使用测试集数据来评估系统性能。<br>
+E：根据学习过程中的不同经验，学习算法可大致分为无监督和监督算法。<br>
+通过一个简单的示例——线性回归算法，来理解机器学习算法的概念。<br>
+5.2 容量、过拟合和欠拟合<br>
+机器学习算法是否能够良好拟合训练集数据？能否泛化到先前未观测的新数据上？决定学习算法效果是否好的因素分别是训练误差，与训练误差和测试误差的差距。这两个因素对应机器学习的两个主要挑战：欠拟合和过拟合。模型是否偏向于过拟合或者欠拟合，是由模型的容量决定的。<br>
+为了降低模型的泛化误差（而非训练误差），我们需要正则化方法，对学习算法进行一些修改。<br>
+5.3 超参数和验证集<br>
+大部分机器学习算法都有超参数，这些参数无法通过学习算法本身学习出来。<br>
+通过设置验证机的方法来设置超参数。<br>
+5.4 估计、偏差和方差<br>
+通过统计领域提供的工具来衡量模型的泛化效果，以及是否欠拟合或过拟合。<br>
+偏差度量偏离真实函数或参数的误差期望，方差则代表当我们重新从数据生成分布中取样时，导致的估计期望的偏差。当模型容量增大时，偏差随之减小，而方差随之增大。模型容量小于最佳容量会呈现欠拟合，大于时导致过拟合。</p>
+<p>学习目标：<br>
+a. 机器学习算法基本概念，回归与分类任务等。欠拟合过拟合，模型选取交叉验证<br>
+b. 了解学习算法的定义，包括常见学习任务，性能度量方法，根据经验对学习算法的分类<br>
+c. 了解模型容量、过拟合和过拟合，以及泛化、正则化的概念<br>
+d. 学习通过验证集来设置超参数的思路<br>
+e. 理解偏差-方差权衡，与欠拟合过拟合、模型容量之间的关系</p>
+<p>机器学习算法基本概念</p>
+<p>过拟合欠拟合超参数验证集</p>
+<p>估计、偏差和方差</p>
+<p>作业：<br>
+a. 参考https://github.com/dibgerge/ml-coursera-python-assignments/blob/master/Exercise5/exercise5.ipynb，<br>
+了解bias-variance tradeoff。<br>
+b. 交叉验证的基本流程是什么？<br>
+c. 下图中靶心为我们要预测的真实值，命中的点离靶心越远，预测结果越差。假设有四种学习算法，对每种算法，我们多次重复整个建模过程，得到多个命中点。结果分别为如下四幅图所示。这四幅图分别对应以下哪种情况：<br>
+i. 高方差，高偏差<br>
+ii. 高方差，低偏差<br>
+iii. 低方差，高偏差<br>
+iv. 低方差，低偏差<br>
+image.png<br>
+打卡要求：<br>
+a. 文字简答。不少于20字<br>
+b. 将图例与选项一一对应。<br>
+打卡截止提交日期：8/6</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xsdgithub.github.io/xsd.github.io//post/84hua-shu-xue-xi-ren-wu">
+                  <h3 class="post-title">
+                    [8.4]花书学习任务
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
